@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// A filter that surrounds execution of the action result.
+    /// action执行之后
     /// </summary>
     public interface IResultFilter : IFilterMetadata
     {
