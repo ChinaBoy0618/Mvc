@@ -7,6 +7,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// A filter that asynchronously surrounds execution of the action result.
+    /// action执行结束之后的异步过滤器
     /// </summary>
     public interface IAsyncResultFilter : IFilterMetadata
     {
