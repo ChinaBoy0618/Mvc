@@ -4,8 +4,9 @@
 namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
-    /// A <see cref="FilterItem"/> provider. Implementations should update <see cref="FilterProviderContext.Results"/>
-    /// to make executable filters available.
+     /// A <see cref="FilterItem"/> provider. Implementations（安装启用） should update <see cref="FilterProviderContext.Results"/>
+    /// to make executable（adj. 可执行的；可实行的） filters available（可获得的；可购得的；可找到的；有空的）.
+    /// 提供创建FilterItem。
     /// </summary>
     public interface IFilterProvider
     {
