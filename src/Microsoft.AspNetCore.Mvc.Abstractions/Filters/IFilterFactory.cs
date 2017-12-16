@@ -7,6 +7,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// An interface for filter metadata which can create an instance of an executable filter.
+    /// 创建可执行的filter的工厂
     /// </summary>
     public interface IFilterFactory : IFilterMetadata
     {
