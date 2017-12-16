@@ -4,7 +4,7 @@
 namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
-    /// A filter that specifies the relative order it should run.
+    /// A filter that specifies（n. 指定） the relative（adj.相关的，相对的） order it should run.
     /// </summary>
     public interface IOrderedFilter : IFilterMetadata
     {
@@ -17,13 +17,13 @@ namespace Microsoft.AspNetCore.Mvc.Filters
         /// Filters are executed in an ordering determined by an ascending sort of the <see cref="Order"/> property.
         /// </para>
         /// <para>
-        /// Asynchronous filters, such as <see cref="IAsyncActionFilter"/>, surround the execution of subsequent
+        /// Asynchronous（adj. [电] 异步的；不同时的；不同期的） filters, such as <see cref="IAsyncActionFilter"/>, surround the execution of subsequent
         /// filters of the same filter kind. An asynchronous filter with a lower numeric <see cref="Order"/>
         /// value will have its filter method, such as <see cref="IAsyncActionFilter.OnActionExecutionAsync"/>,
         /// executed before that of a filter with a higher value of <see cref="Order"/>.
         /// </para>
         /// <para>
-        /// Synchronous filters, such as <see cref="IActionFilter"/>, have a before-method, such as
+        /// Synchronous（adj. 同步的；同时的） filters, such as <see cref="IActionFilter"/>, have a before-method, such as
         /// <see cref="IActionFilter.OnActionExecuting"/>, and an after-method, such as
         /// <see cref="IActionFilter.OnActionExecuted"/>. A synchronous filter with a lower numeric <see cref="Order"/>
         /// value will have its before-method executed before that of a filter with a higher value of
