@@ -10,7 +10,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
     public interface IResourceFilter : IFilterMetadata
     {
         /// <summary>
-        /// Executes the resource filter. Called before execution of the remainder of the pipeline.
+        /// Executes the resource filter. Called before execution of the remainder（其余的） of the pipeline.
         /// </summary>
         /// <param name="context">The <see cref="ResourceExecutingContext"/>.</param>
         void OnResourceExecuting(ResourceExecutingContext context);
