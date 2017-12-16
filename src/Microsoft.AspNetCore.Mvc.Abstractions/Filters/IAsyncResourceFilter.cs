@@ -12,7 +12,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
     public interface IAsyncResourceFilter : IFilterMetadata
     {
         /// <summary>
-        /// Called asynchronously before the rest of the pipeline.
+        /// Called asynchronously before the rest of（其余的；剩下的） the pipeline.
         /// </summary>
         /// <param name="context">The <see cref="ResourceExecutingContext"/>.</param>
         /// <param name="next">
