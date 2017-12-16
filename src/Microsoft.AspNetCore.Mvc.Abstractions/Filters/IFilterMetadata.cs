@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// Marker interface for filters handled in the MVC request pipeline.
+    /// 用来标记mvc请求管道过滤器调用的接口
     /// </summary>
     public interface IFilterMetadata
     {
