@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// A filter that surrounds execution of the action.
+    /// action执行之前，model绑定之后
     /// </summary>
     public interface IActionFilter : IFilterMetadata
     {
