@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// A filter that confirms request authorization.
+    /// 身份验证过滤器
     /// </summary>
     public interface IAuthorizationFilter : IFilterMetadata
     {
