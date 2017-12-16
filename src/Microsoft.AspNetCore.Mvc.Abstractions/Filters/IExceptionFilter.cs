@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Filters
 {
     /// <summary>
     /// A filter that runs after an action has thrown an <see cref="System.Exception"/>.
+    /// action执行异常之后调用
     /// </summary>
     public interface IExceptionFilter : IFilterMetadata
     {
